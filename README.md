@@ -29,4 +29,34 @@ Lot Summary
 As shown in the Total Summary image above, the overall variance is around 62 which meets the 100 pounds per square inch requirement. However when looking at individual lots, Lot 3 does not meet the requirement as the variance in it is around 170.
 
 ## T-Tests on Suspension Coils
+T-Test for all manufacturing lots
+
+![Whole T-Test](https://user-images.githubusercontent.com/49666078/183276782-67aac1bf-b1d6-4eae-b886-9439a2e75f64.png)
+
+- Looking at the t-test for all of the lots, we can see that the mean is not significantly different from the population mean however the p-value is also not low enough for us to reject the null hypthesis in this instance.
+
+T-Test for Lot 1
+
+![Lot 1 T-Test](https://user-images.githubusercontent.com/49666078/183276811-2520eb73-5a10-4ad1-97f2-fe025600b4a6.png)
+
+- Looking at lot 1, we can see that the mean is also not significantly different from the population mean however the p-value of 1 indicates that we definitely cannot reject the null hypothesis.
+
+T-Test for Lot 2
+
+![Lot 2 T-Test](https://user-images.githubusercontent.com/49666078/183276816-7ccfdffe-dc4b-49bb-b826-28a27c715270.png)
+
+- Looking at lot 2, again the mean is not significantly different from the population mean and the p-value again is too large for us to reject the null hypothesis. 
+
+T-Test for Lot 3
+
+![Lot 3 T-Test](https://user-images.githubusercontent.com/49666078/183276819-912a8f22-bfa8-4b00-8e77-3bf8ad6a397a.png)
+
+- Looking at lot 3, the mean in this instance is slightly lower than the other values, but the p-value of 0.04 is low enough for us to reject the null hypothesis in this case.
+
+## Study Design: MechaCar vs Competition
+
+- What metric or metrics are you going to test?
+- What is the null hypothesis or alternative hypothesis?
+- What statistical test would you use to test the hypothesis? And why?
+- What data is needed to run the statistical test?
 
